@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>Title</title>   
+    <script src="JS/jquery.js"></script>
+    <script src="JS/library.js"></script>
+    <script src="JS/index.js"></script>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+<input id="testo" value='{"studenti":[{"nome": "andrea", "cognome":"abbate", "media":3.45},{"nome":"andrea", "cognome":"demarchi", "media":6}]}'   type="text" title="Inserire JSON"/>
+<button id="avvia">Avvia la modifica</button>
+<div id="modifica">
+    <table>
+        <tbody><tr>
+            <td>Nome</td>            
+            <td>
+                <input type="text" id="nome" class="campo">
+            </td>
+            </tr>
+            <tr>
+            <td>Cognome</td>            
+            <td>
+                <input type="text" id="cognome" class="campo">
+            </td>
+            </tr>
+            
+            <tr>
+            <td>Media</td>            
+            <td>
+                <input type="text" id="media" class="campo">
+            </td>
+            </tr>
+        </tbody></table>
+</div>
+</body>
+</html>
