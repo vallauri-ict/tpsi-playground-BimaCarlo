@@ -1,0 +1,1 @@
+Questo file verrà ignorato durante il versioning di GIT
